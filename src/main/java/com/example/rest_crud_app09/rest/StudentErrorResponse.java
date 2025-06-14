@@ -9,8 +9,8 @@ public class StudentErrorResponse {
     private long timeStamp;
 
     public StudentErrorResponse(int status, String message, long timeStamp) {
-        this.status = status;
-        this.message = message;
+        this.status    = status;
+        this.message   = message;
         this.timeStamp = timeStamp;
     }
 
